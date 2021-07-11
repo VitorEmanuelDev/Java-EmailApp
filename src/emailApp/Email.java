@@ -37,7 +37,7 @@ public class Email {
 	//Ask for the department
 	private String setDepartment() {
 		
-		System.out.print("Hey " + firstName + ", pick a department.\n1 Sales\n2 Development\n3 Accounting\n0 None");
+		System.out.println("Hey " + firstName + ", pick a department.\n1 Sales\n2 Development\n3 Accounting\n0 None");
 		Scanner scanner = new Scanner(System.in);
 		int departmentChoice = scanner.nextInt();
 		scanner.close();
